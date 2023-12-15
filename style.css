@@ -137,6 +137,7 @@ html{
     padding: 34px;
     border: 2px solid red;
     margin: 2px;
+    z-index:-1;
 }
 #clients img{
     height: 124px;
@@ -144,6 +145,7 @@ html{
 }
 #contact{
     position: relative;
+    z-index:-1;
 }
 #contact::before{
     content: "";
